@@ -8,21 +8,21 @@ This mockup has 4 main parts: the navigation, banner, main section and the foote
 
 Desktop:
 
-<img alt="Desktop-sized screenshot of an coffee bean landing page" src="" style="" />
+<img alt="Desktop-sized screenshot of an coffee bean landing page" src="./docs/bean_machine_desktop.png" style="" />
 
 
 ## Getting Started Notes
 
-- You're given a decent start in terms of the HTML markup, but not much in the way of styles. You'll be expected to edit `style.css` to implement the styles. 
+- You're not given any HTML markup inside of the `<body></body>` tags, first start by outlining the main elements. Once you have done that, you can start implementing the styles. You'll be expected to edit `style.css` to implement the styles. 
 
-- Don't worry too much about "best practices". Later in this course, we'll see how to create scalable encapsulated styles. For now, the goal is simply to implement the designs in the screenshots, with whatever organizational strategy comes most naturally to you.
+- The `style.css` and `index.html` files are linked, which you can see in the `<head></head>` tag, so you don't have to worry about that. 
+  
+- Note about the layout: focus primarily on the flow-layout and box-model. It's important to be comfortable with these primitives (padding, border and margin) before moving on to more-complex subjects.
 
-- Note about the layout: flow-layout and box-model. For the "Special offers" section see how you can use flexbox to build the cards and align them.
-- 
-- It's important to be comfortable with these primitives (padding, border and margin) before moving on to more-complex subjects.
+- Implementing the banner illustration and building and positioning the cards in the "Special offers" section require a bit more complex techniques (absolute and relative positioning and flexbox).
+  
 
-
-- **Pay close attention to .** using the right HTML markup: <nav> for the navigation, <footer> for the footer etc. Make sure you use the https://validator.w3.org/ markup validator if you're not sure about the structure. 
+- **Pay close attention to** using the right HTML markup: Make sure you use the [markup validator](https://validator.w3.org/) to validate your HTML structure.
 
 ## Design tokens
 
@@ -48,7 +48,7 @@ When it comes to max widths (eg. the maximum width of the card), arbitrary value
 
 ### Font
 
-1 font is used in this project: `Lato`. It is already included in the stylesheet.
+2 font is used in this project: `Lato` and `Open Sans`. It is already included in the stylesheet.
 
 The base font size is 16px, which reflect the typography in the following:
 
@@ -68,15 +68,14 @@ Secondary (green):
 
 Grays:
 
-- `#000000` (black)
-- `#917D6E` (dark)
-- `#F6F2EF` (medium)
-- `#917D6E` (light)
+- `#1D1C1C` (black)
+- `#917D6E` (dark gray)
+- `#F6F2EF` (medium gray)
 - `#FFFFFF` (white)
 
 > What the HEX Code?
->
-> 
+>A color hex code is a hexadecimal way to represent a color in RGB format by combining three values – the amounts of red, green and blue in a particular shade of color.
+> These color hex codes have been an integral part of HTML for web design, and remain a key way of representing color formats digitally.
 
 ## Submissions
 
