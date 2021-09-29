@@ -7,9 +7,91 @@
   <link rel="stylesheet" href="./style.css" >
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap" rel="stylesheet"><title>The Bean Machine</title>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap" rel="stylesheet">
+  <title>The Bean Machine</title>
 </head>
 <body>
-  
+  <div class="container">
+    <!-- navigation -->
+    <nav>
+      <p class=logo>The Bean Machine</p>
+      <div class="links">
+        <a href="#" class="nav-links">About</a>
+        <a href="#" class="nav-links">Selection</a>
+        <a href="#" class="btn-dark">Login</a>
+      </div>
+    </nav>
+    <!-- banner -->
+    <div class="banner">
+      <div class="banner-title">
+        <h1>The Bean Machine</h1>
+        <p>Coffee Bean Shop</p>
+        <form>
+          <input type="text" placeholder="Search for coffee beans" class="input-search"/>
+          <button class="btn-search-pink">
+            <img src="./assets/baseline_chevron_right_white_24dp.png"/>
+          </button> 
+        </form>
+      </div>
+      <img class="banner-illustration" src="./assets/illustration.png" alt="person-holding-coffee"/>
+    </div>
+
+    <!-- about section -->
+    <hr />
+    <section>
+      <h2>About</h2>
+      <p>We are a specialty Coffee Bean Shop based in Barcelona, Spain. </p>
+      <p>We are passionate about the coffee bean quality so we source our beans from all over the world in order to give you the best out there!</p>
+      <p>Visit our specailty coffee shop at La Rambla 204, where we serve the best coffee in Barcelona.</p>
+    </section>
+
+    <!-- special offers section -->
+    <hr />
+    <section>
+      <h2>Special Offers</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="./assets/coffee_beans.png" alt="coffee-bean"/>
+          <p>Costa Rica Single Origin</p>
+          <a href="#">Buy now</a>
+        </div>
+        <div class="card">
+          <img src="./assets/coffee_beans.png" alt="coffee-bean"/>
+          <p>Costa Rica Single Origin</p>
+          <a href="#">Buy now</a>
+        </div>
+        <div class="card">
+          <img src="./assets/coffee_beans.png" alt="coffee-bean"/>
+          <p>Costa Rica Single Origin</p>
+          <a href="#">Buy now</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- footer -->
+  <footer>
+    <div>
+      <p>Contact us on social media</p>
+      <ul>
+        <li>
+          <a href="www.facebook.com">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a href="www.twitter.com">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="www.instragram.com">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
 </body>
 </html>
