@@ -12,5 +12,9 @@ body {
   padding: 0;
 }
 
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
 
 /* Add styles here */
